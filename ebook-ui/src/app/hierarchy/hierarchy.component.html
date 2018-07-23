@@ -1,0 +1,11 @@
+<table>
+
+	<table>
+    <tr *ngFor="let hierarchy of hierarchies">
+    	<td *ngFor="let i of [].constructor(hierarchy.level-1)">{{i}}</td>
+        <td>{{hierarchy.employeeName}}</td>
+    </tr>
+</table>
+
+
+</table>
